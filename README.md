@@ -8,7 +8,6 @@ Repositório destinado aos meus estudos, códigos, simulações e experimentos r
 - [Estrutura do Repositório](#estrutura-do-repositório)
 - [Pré-requisitos e Configuração](#pré-requisitos-e-configuração)
 - [Exemplos e Projetos](#exemplos-e-projetos)
-- [Contribuições](#contribuições)
 - [Referências e Recursos](#referências-e-recursos)
 
 ---
@@ -85,4 +84,8 @@ Simulações de propagação de doenças utilizando autômatos celulares. Explor
 
 ### 4. Formiga de Langton
 Um exemplo fascinante de como regras simples podem levar à complexidade. O comportamento emergente é explorado no contexto de sistemas auto-organizáveis.
- 
+
+ ## Referências e Recursos
+ - Joel Schif, Cellular Automata (livro base para muitos dos exemplos deste repositório.
+ - Stephen Wolfram, A New Kind of Science.
+ - MCell - Simulador de autômatos celulares.
