@@ -32,10 +32,10 @@ A organização do repositório segue uma estrutura modular para facilitar o ace
     ├── epidemiology_model.py    # Modelos epidemiológicos baseados em autômatos celulares
     └── utils.py                 # Funções auxiliares para visualização e análise
 
-📂 /notebooks
-    ├── ca_intro.ipynb           # Introdução aos autômatos celulares
-    ├── wolfram_classes.ipynb    # Classes de comportamento dos autômatos celulares de Wolfram
-    └── epidemics.ipynb          # Simulações de propagação de doenças
+📂 /notes
+    ├── ca_intro.md           # Introdução aos autômatos celulares
+    ├── wolfram_classes.md    # Classes de comportamento dos autômatos celulares de Wolfram
+    └── epidemics.md          # Simulações de propagação de doenças
 
 📂 /examples
     ├── langtons_ant             # Exemplo da formiga de Langton (Capítulo 6 do livro)
@@ -49,3 +49,40 @@ A organização do repositório segue uma estrutura modular para facilitar o ace
 📂 /images
     ├── ca_simulation.gif        # GIFs de simulações
     └── ulam_visualization.png   # Visualização da espiral de Ulam
+```
+
+## Pré-requisitos e Configuração
+Para executar os scripts e notebooks deste repositório, você precisará de"
+- Python 3.8+
+- Bibliotecas recomendadas:
+    - numpy para manipulação de matrizes.
+    - matplotlib e seaborn para visualização.
+
+### Passos para Configuração
+1. Clone este repositório:
+    ```bash
+    git clone https://github.com/notsogreatdavi/cellular-automata.git
+    cd cellular-automata
+    ```
+
+2. Instale as depend6encia com o pip:
+   ```bash
+   pip install -r requirements.txt
+    ```
+--- 
+
+## Exemplos e Projetos
+Aqui estão alguns exemplos e projetos que você encontrará neste repositório:
+
+### 1. Game of Life
+Uma implementação clássica do autômato celular bidimensional proposto por John Conway. Veja o notebook ou execute o script para observar a evolução do padrão com base nas regras locais.
+
+### 2. Regra 110
+Uma simulação de um autômato celular unidimensional que demonstra comportamento caótico e foi provado ser Turing-completo.
+
+### 3. Modelos Epidemiológicos
+Simulações de propagação de doenças utilizando autômatos celulares. Explore o impacto de diferentes variáveis como taxa de transmissão, quarentena, e vacinação.
+
+### 4. Formiga de Langton
+Um exemplo fascinante de como regras simples podem levar à complexidade. O comportamento emergente é explorado no contexto de sistemas auto-organizáveis.
+ 
